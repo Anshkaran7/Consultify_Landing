@@ -23,7 +23,7 @@ function Home() {
         variants={navbarVariants}
       >
         <h1 className='font-playfair-display-sc font-medium  text-white  text-2xl'>Consultify</h1>
-        <div className="font-open-sans text-xs md:text-base">
+        <div className="font-open-sans text-xs md:text-base flex gap-x-8 font-medium">
           <motion.a href="/home" whileHover={{ scale: 1.1 }}>Home
           </motion.a>
           <motion.a href="/contact" className="ml-4" whileHover={{ scale: 1.1 }}>Contact Us
@@ -53,9 +53,9 @@ function Home() {
           >
             Welcome to Consultify, where legal guidance meets convenience. Our
             platform connects you with experienced lawyers ready to provide
-            personalized advice tailored to your specific needs. Whether you're
+            personalized advice tailored to your specific needs. Whether you&apos; re
             facing a complex legal issue or simply need clarification on a legal
-            matter, we're here to help.
+            matter, we&apos; re here to help.
           </motion.p>
         </div>
 
@@ -65,14 +65,14 @@ function Home() {
           animate={{ opacity: 1, y: 0, transition: { duration: 0.5, delay: 1 } }}
         >
           <motion.button
-            className="mt-6 bg-transparent border-[#D9D9D9] border-[1px] uppercase text-[11px] md:text-xs w-[30%] lg:w-[18%] text-black font-open-sans px-6 py-3 rounded-md"
+            className="mt-6 bg-transparent border-[#D9D9D9] border-[1px] uppercase text-[11px] md:text-xs md:w-[30%] lg:w-[18%] text-black font-open-sans px-6 py-3 rounded-md"
             whileHover="hover"
             variants={buttonVariants}
           >
             Go to the APP
           </motion.button>
           <motion.button
-            className="mt-6 bg-transparent border-[#D9D9D9] border-[1px] uppercase text-[11px] md:text-xs w-[30%] lg:w-[18%] text-black font-open-sans px-6 py-3 rounded-md"
+            className="mt-6 bg-transparent border-[#D9D9D9] border-[1px] uppercase text-[11px] md:text-xs md:w-[30%] lg:w-[18%] text-black font-open-sans px-6 py-3 rounded-md"
             whileHover="hover"
             variants={buttonVariants}
           >

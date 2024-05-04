@@ -79,7 +79,7 @@ const Section2: React.FC = () => {
 
                     <p className='font-open-sans text-[20px] mt-6 font-semibold'>Connect with a Legal Expert</p>
                     <p className='text-justify text-[#1C1C1C]/40 font-medium capitalize mt-3 text-[14px] font-open-sans'>
-                        Our platform matches you with a qualified lawyer based on your inquiry. You'll receive instant access to schedule a consultation at a time convenient for you.
+                        Our platform matches you with a qualified lawyer based on your inquiry. You&apos; ll receive instant access to schedule a consultation at a time convenient for you.
                     </p>
                 </AnimatedCard>
                 <Image
