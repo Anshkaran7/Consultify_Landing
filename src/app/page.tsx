@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 export default function Body() {
   return (
-    <main className="bg-white min-h-screen">
+    <main className="bg-white mx-auto container w-full min-h-screen">
       <Home />
       <Section2 />
       <Section3 />
