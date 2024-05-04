@@ -23,7 +23,7 @@ function Home() {
         variants={navbarVariants}
       >
         <h1 className='font-playfair-display-sc font-medium  text-white  text-2xl'>Consultify</h1>
-        <div className="font-open-sans text-xs md:text-base flex gap-x-8 font-medium">
+        <div className="font-open-sans text-white text-xs md:text-base flex md:gap-x-8 font-medium">
           <motion.a href="/home" whileHover={{ scale: 1.1 }}>Home
           </motion.a>
           <motion.a href="/contact" className="ml-4" whileHover={{ scale: 1.1 }}>Contact Us

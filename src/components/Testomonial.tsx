@@ -23,7 +23,7 @@ function Testimonial() {
   };
 
   return (
-    <div className='bg-white flex w-full mt-40 items-center flex-col' ref={ref}>
+    <div className='bg-white flex w-full md:mt-40 items-center flex-col' ref={ref}>
       <motion.div
         className='bg-white flex w-full mt-40 items-center flex-col'
         initial="hidden"

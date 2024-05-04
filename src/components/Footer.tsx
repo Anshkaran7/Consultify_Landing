@@ -20,7 +20,7 @@ interface AnimatedTextProps {
             y: 0,
             transition: {
                 duration: 0.5,
-                delay: inView ? delay : 0,
+                // delay: inView ? delay : 0,
             },
         },
     };

@@ -39,7 +39,7 @@ const Section3: React.FC = () => {
     return (
         <div className='px-4 flex items-center flex-col' ref={ref}>
             <div className='flex items-center flex-col'>
-                <h1 className='text-black font-open-sans font-semibold text-[32px]'>Access to Expert Legal Guidance</h1>
+                <h1 className='text-black font-open-sans text-center font-semibold text-[32px]'>Access to Expert Legal Guidance</h1>
                 <p className='text-[#1C1C1C]/40 text-[20px] font-open-sans'>Anytime, Anywhere</p>
             </div>
 
@@ -67,7 +67,7 @@ const Section3: React.FC = () => {
                     >
                         <Image src='/assets/guider.png' alt='image' width={2000} height={2000} className='w-full h-[80vh] object-cover aspect-auto absolute -bottom-10' />
                         <div className='relative px-10'>
-                            <h1 className='font-open-sans text-xl text-start capitalize mt-5 md:mt-10 z-10'>On-Demand Legal Consultation</h1>
+                            <h1 className='font-open-sans text-xl text-start text-white capitalize mt-5 md:mt-10 z-10'>On-Demand Legal Consultation</h1>
                             <p className='font-open-sans text-[#A4A4A4] text-justify text-xs mb-4 md:mb-0 md:text-[14px] mt-5'>Our platform provides immediate access to experienced lawyers, allowing users to seek advice and guidance at their convenience, regardless of their location or time zone. Say goodbye to long wait times and scheduling conflicts with traditional legal consultations.</p>
                         </div>
                     </motion.div>
@@ -79,7 +79,7 @@ const Section3: React.FC = () => {
                         variants={CardAnimationVariants}
                         transition={{ duration: 0.5, delay: 0.7 }}
                     >
-                        <h1 className='font-open-sans capitalize text-sm md:text-xl text-center my-10 lg:mt-10'>Navigate Legal Matters with Ease</h1>
+                        <h1 className='font-open-sans text-white capitalize text-sm md:text-xl text-center my-10 lg:mt-10'>Navigate Legal Matters with Ease</h1>
                     </motion.div>
                 </div>
             </div>
