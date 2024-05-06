@@ -15,7 +15,7 @@ function Home() {
   };
 
   return (
-    <div className='relative bg-white h-screen overflow-hidden py-2 px-3 md:px-10'>
+    <div className='relative bg-white  h-screen overflow-hidden py-2 px-3 md:px-10'>
       <motion.div
         className='mt-6 relative top-1 z-10 flex flex-row items-center justify-between rounded-xl'
         initial="hidden"

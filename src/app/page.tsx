@@ -4,6 +4,7 @@ import Section3 from "@/components/Section3";
 import Testomonial from "@/components/Testomonial";
 import KeyFeatures from "@/components/KeyFeatures";
 import Footer from "@/components/Footer";
+import Section3Mobile from "@/components/Section3Mobile";
 
 
 export default function Body() {
@@ -12,6 +13,7 @@ export default function Body() {
       <Home />
       <Section2 />
       <Section3 />
+      <Section3Mobile />
       <Testomonial />
       <KeyFeatures />
       <Footer />
